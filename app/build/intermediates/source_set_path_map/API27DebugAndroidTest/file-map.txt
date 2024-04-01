@@ -1,0 +1,9 @@
+br.edu.utfpr.usbtest.test.app-API27-0 C:\Users\vinic\Downloads\AnsiSdkDemo\UVCPermissionTest\app\build\generated\res\resValues\androidTest\API27\debug
+br.edu.utfpr.usbtest.test.app-API27-1 C:\Users\vinic\Downloads\AnsiSdkDemo\UVCPermissionTest\app\build\generated\res\rs\androidTest\API27\debug
+br.edu.utfpr.usbtest.test.app-mergeAPI27DebugAndroidTestResources-2 C:\Users\vinic\Downloads\AnsiSdkDemo\UVCPermissionTest\app\build\intermediates\incremental\API27DebugAndroidTest\mergeAPI27DebugAndroidTestResources\merged.dir
+br.edu.utfpr.usbtest.test.app-mergeAPI27DebugAndroidTestResources-3 C:\Users\vinic\Downloads\AnsiSdkDemo\UVCPermissionTest\app\build\intermediates\incremental\API27DebugAndroidTest\mergeAPI27DebugAndroidTestResources\stripped.dir
+br.edu.utfpr.usbtest.test.app-merged_res-4 C:\Users\vinic\Downloads\AnsiSdkDemo\UVCPermissionTest\app\build\intermediates\merged_res\API27DebugAndroidTest
+br.edu.utfpr.usbtest.test.app-androidTest-5 C:\Users\vinic\Downloads\AnsiSdkDemo\UVCPermissionTest\app\src\androidTest\res
+br.edu.utfpr.usbtest.test.app-androidTestAPI27-6 C:\Users\vinic\Downloads\AnsiSdkDemo\UVCPermissionTest\app\src\androidTestAPI27\res
+br.edu.utfpr.usbtest.test.app-androidTestAPI27Debug-7 C:\Users\vinic\Downloads\AnsiSdkDemo\UVCPermissionTest\app\src\androidTestAPI27Debug\res
+br.edu.utfpr.usbtest.test.app-androidTestDebug-8 C:\Users\vinic\Downloads\AnsiSdkDemo\UVCPermissionTest\app\src\androidTestDebug\res

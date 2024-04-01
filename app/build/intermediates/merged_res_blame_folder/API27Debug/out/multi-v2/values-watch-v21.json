@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "br.edu.utfpr.usbtest.app-mergeAPI27DebugResources-28:/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\vinic\\.gradle\\caches\\transforms-3\\e52c9269593416765d6dec411fcc42f4\\transformed\\appcompat-1.5.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,133 @@
+plugins {
+	id 'com.android.application'
+	id 'org.jetbrains.kotlin.android'
+	id 'org.jetbrains.kotlin.kapt'
+	id 'org.jetbrains.dokka'
+}
+
+android {
+    namespace 'br.edu.utfpr.usbtest'
+    compileSdkVersion 34
+
+   	compileOptions {
+   		sourceCompatibility javaSourceCompatibility
+   		targetCompatibility javaTargetCompatibility
+   	}
+
+    defaultConfig {
+        minSdkVersion 16
+        versionCode versionCodeNum
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        targetSdk 34
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    kotlinOptions.jvmTarget = "1.8"
+
+    flavorDimensions "UsbTest"
+   	productFlavors {
+   		API27 {
+            dimension "UsbTest"
+            def ver = 27
+            targetSdkVersion ver
+
+            versionName "api${ver}_${versionNameString}"
+            applicationId "br.edu.utfpr.usbtest.api${ver}"
+            manifestPlaceholders = [app_name:"api${ver}UsbTest"]
+   		}
+        API28 {
+            dimension "UsbTest"
+            def ver = 28
+            targetSdkVersion ver
+
+            versionName "api${ver}_${versionNameString}"
+            applicationId "br.edu.utfpr.usbtest.api${ver}"
+            manifestPlaceholders = [app_name:"api${ver}UsbTest"]
+        }
+        API29 {
+            dimension "UsbTest"
+            def ver = 29
+            targetSdkVersion ver
+
+            versionName "api${ver}_${versionNameString}"
+            applicationId "br.edu.utfpr.usbtest.api${ver}"
+            manifestPlaceholders = [app_name:"api${ver}UsbTest"]
+        }
+        API30 {
+            dimension "UsbTest"
+            def ver = 30
+            targetSdkVersion ver
+
+            versionName "api${ver}_${versionNameString}"
+            applicationId "br.edu.utfpr.usbtest.api${ver}"
+            manifestPlaceholders = [app_name:"api${ver}UsbTest"]
+        }
+        API31 {
+            dimension "UsbTest"
+            def ver = 31
+            targetSdkVersion ver
+
+            versionName "api${ver}_${versionNameString}"
+            applicationId "br.edu.utfpr.usbtest.api${ver}"
+            manifestPlaceholders = [app_name:"api${ver}UsbTest"]
+        }
+        API32 {
+            dimension "UsbTest"
+            def ver = 32
+            targetSdkVersion ver
+
+            versionName "api${ver}_${versionNameString}"
+            applicationId "br.edu.utfpr.usbtest.api${ver}"
+            manifestPlaceholders = [app_name:"api${ver}UsbTest"]
+        }
+        API33 {
+            dimension "UsbTest"
+            def ver = 33
+            targetSdkVersion ver
+
+            versionName "api${ver}_${versionNameString}"
+            applicationId "br.edu.utfpr.usbtest.api${ver}"
+            manifestPlaceholders = [app_name:"api${ver}UsbTest"]
+        }
+        API34 {
+            dimension "UsbTest"
+            def ver = 34
+            targetSdkVersion ver
+
+            versionName "api${ver}_${versionNameString}"
+            applicationId "br.edu.utfpr.usbtest.api${ver}"
+            manifestPlaceholders = [app_name:"api${ver}UsbTest"]
+        }
+   		APILatest {
+            dimension "UsbTest"
+            def ver = versionTarget
+            targetSdkVersion ver
+
+            versionName "api${ver}_${versionNameString}"
+            applicationId "br.edu.utfpr.usbtest.api${ver}"
+            manifestPlaceholders = [app_name:"api${ver}UsbTest"]
+   		}
+   	}
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation "androidx.appcompat:appcompat:${androidXVersion}"
+   	implementation "com.google.android.material:material:${androidXMaterial}"
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    implementation "androidx.core:core-ktx:${androidXKtCore}"
+   	implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:${androidXKtLifeCycle}"
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+}

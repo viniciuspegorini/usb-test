@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "br.edu.utfpr.usbtest.api34.test",
+  "variantName": "API27DebugAndroidTest",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 0,
+      "versionName": "",
+      "outputFile": "app-API27-debug-androidTest.apk"
+    }
+  ],
+  "elementType": "File"
+}
